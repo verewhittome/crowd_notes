@@ -42,12 +42,29 @@ body {
   align-items: center;
 }
 
-.search_filter_item:hover{
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"]:checked + label {
   border: 1px solid rgba(109, 124, 148, 0.62);
   box-sizing: border-box;
   border-radius: 20px;
   color: #D070A9;
 }
+label:hover{
+  border: 1px solid rgba(109, 124, 148, 0.62);
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #D070A9;
+}
+/* label input {
+ position: absolute;
+ opacity: 0;
+ cursor: pointer;
+ height: 0;
+ width: 0;
+} */
+
 
 #divider {
 height:0;
