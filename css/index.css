@@ -1,0 +1,147 @@
+body {
+  background: linear-gradient(180deg, #F1F9FF 0%, #FFFFFF 67.19%), #F2F3F5;
+  position: relative;
+}
+
+#explore_div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#explore {
+  margin: 20px;
+  width: 473px;
+  height: 183px;
+}
+#search_filter_div{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 75%;
+}
+
+
+.search_filter_item{
+  width: 144px;
+  height: 58px;
+
+  margin: 10px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: rgba(49, 69, 106, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_filter_item:hover{
+  border: 1px solid rgba(109, 124, 148, 0.62);
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #D070A9;
+}
+
+#divider {
+height:0;
+width: 1175px;
+
+
+border: 1px solid rgba(49, 69, 106, 0.5);
+}
+
+#search_boxes{
+  margin: 20px;
+  width: 606px;
+  height: 307px;
+}
+
+#featured {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%
+}
+
+#featured_title{
+  width: 427px;
+  height: 174px;
+
+}
+
+#feature_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 771px;
+  height: 1062px;
+  padding: 30px;
+  background: #FCFEFF;
+  border: 2px solid rgba(180, 187, 195, 0.5);
+  border-radius: 59px;
+}
+
+.feature_item{
+  margin: 20px;
+  width: 682px;
+  height: 131px;
+  background: #FCFEFF;
+  border: 2px solid rgba(180, 187, 195, 0.5);
+  border-radius: 59px;
+}
+
+#browse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Browse_title {
+  width: 427px;
+  height: 174px;
+}
+
+#browse_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.browse_item{
+  margin: 30px 40px;
+  width: 352px;
+  height: 184px;
+  border: 2px solid rgba(180, 187, 195, 0.5);
+  border-radius: 59px;
+}
+
+#shapes_div{
+  position: absolute;
+  width: 100%;
+  height: 16%;
+  /* left: -301px; */
+  top: 22%;
+  z-index: -100;
+}
+
+#shapes{
+  width: 100%;
+}
+#woman_picture_div{
+  /* position: absolute; */
+  width: 33%;
+  height: 15%;
+  float: right;
+  margin: -5px 110px;
+  /* right: 0;
+  top: 22%; */
+}
